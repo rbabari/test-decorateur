@@ -1,6 +1,10 @@
 package ca.qc.bdeb.a13_decorateur.decorateur;
 
 public class Olive extends Ingredient {
+
+    /**
+     * @param p est un plat qu'on rajoute a la pizza ou a l'ingredient ...
+     */
     public Olive(Plat p) {
         sur = p;
     }

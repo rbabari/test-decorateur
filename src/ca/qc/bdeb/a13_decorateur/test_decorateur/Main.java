@@ -1,8 +1,15 @@
 package ca.qc.bdeb.a13_decorateur.test_decorateur;
 import ca.qc.bdeb.a13_decorateur.decorateur.*;
-public class Main {
-    public static void main(String[] args) {
 
+/**
+ *Class Main
+ */
+public class Main {
+
+    /**
+     * @param args liste des parametre lors de l'execution avec console
+     */
+    public static void main(String[] args) {
 
 // interface plat getPrix()
 // pizza de base implements Plat getPrix(){return 5.00; }
